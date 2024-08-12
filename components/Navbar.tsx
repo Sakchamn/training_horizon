@@ -14,11 +14,11 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="lg:flexEnd -mt-1 hidden gap-12 ">
-      <Link href={"/"} className="regular-14 text-gray-50 hover:font-bold">
+      <div className="sm:flexEnd -mt-1 flex items-center gap-12 ">
+      <Link href={"/"} className="regular-14 max-sm:hidden text-gray-50 hover:font-bold">
         Join as Teacher
         </Link>
-        <Link href={"/login"} className="regular-14 text-gray-50 transistion-all hover:font-bold">
+        <Link href={"/login"} className="regular-14 max-sm:hidden text-gray-50 transistion-all hover:font-bold">
         Log In
         </Link>
         
