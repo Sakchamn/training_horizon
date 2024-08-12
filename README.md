@@ -34,6 +34,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 vercel link : https://training-horizon.vercel.app/
 
 ## Screen Shots
-Home Screen (image.png) 
-Signup Page (image-1.png) Open [http://localhost:3000/signup](http://localhost:3000/signup) with your browser or click Signup Button to see the result.
-Login Page (image-2.png) Open [http://localhost:3000/login](http://localhost:3000/login) with your browser or click Login Link to see the result.
+Home Screen ![alt text](image.png) 
+Signup Page ![alt text](image-1.png) Open [http://localhost:3000/signup](http://localhost:3000/signup) with your browser or click Signup Button to see the result.
+Login Page ![alt text](image-2.png) Open [http://localhost:3000/login](http://localhost:3000/login) with your browser or click Login Link to see the result.
