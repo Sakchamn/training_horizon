@@ -1,13 +1,14 @@
 export default function Testimonial() {
     return (
-        <div>
-        <h2 className="text-2xl mt-10 ml-32 font-bold text-gray-900">What our customers say?</h2> 
+        <div className="w-full">
+        <h2 className="text-2xl mt-10 px-10 w-full font-bold text-gray-900">What our customers say?</h2> 
         <div className="flex justify-center"> 
-        <section className="mt-10 mx-20"> 
+        <section className="mt-10 w-full mx-20"> 
              
-            <div className="flex my-10 items-center"> 
-              <img src='/images/review-1.png' className="w-36 h-36 z-20" /> 
-            <div className="flex-col py-16 ring-1 relative shadow-xl ring-sky-400 mt-4 px-20 w-[900px] h-[300px] -ml-16 z-0 bg-white rounded-lg"> 
+            <div className="flex my-10 justify-center items-center"> 
+              
+            <div className="flex-col py-16 ring-1  relative shadow-xl ring-sky-400 mt-4 px-24 w-2/3 z-0 bg-white rounded-lg"> 
+            <img src='/images/review-1.png' className="w-36 h-36 z-20 absolute top-[78px] -left-[72px]" /> 
             <div className="flex items-center mb-2 text-yellow-400 justify-end">
               {[...Array(4)].map((_, index) => (
                 <svg
@@ -33,11 +34,11 @@ export default function Testimonial() {
             
               <p className="text-lg italic text-gray-900">"I am proud to say that after a few months of taking this course... I passed my exam and am now an AWS Certified Cloud Practitioner!"</p> 
               <p className="mt-2 text-[20px] font-bold text-gray-900">- Nia Kyle</p> 
-              
-            </div> 
-            <div className="bg-sky-400 ring-1 ring-sky-400 mt-4  w-[80px] h-[300px] -ml-[50px] z-10  rounded-r-lg hover:bg-sky-600">
+              <div className="bg-sky-400 flex justify-center items-center ring-1 ring-sky-400 w-[80px] h-full absolute top-0 right-0  rounded-r-lg hover:bg-sky-600">
               <div className="size-8 my-32 mx-6">  <img src="/icons/arrow_next.png" alt="nextbtn" /></div>
-            </div>
+            </div>  
+            </div> 
+            
             </div> 
             
           </section> 
