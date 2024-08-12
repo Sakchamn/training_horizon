@@ -9,8 +9,8 @@ export default function Testimonial() {
 
           <div className="flex my-10 justify-center items-center">
 
-            <div className="flex-col py-16 ring-1  relative shadow-xl ring-sky-400 mt-4 px-24 w-2/3 max-sm:w-4/5 bg-white rounded-lg">
-              <img src='/images/review-1.png' className="w-36 h-36 z-20 absolute top-[60px] max-sm:top-1/3 -left-[72px] " />
+            <div className="flex-col py-16 ring-1  relative shadow-xl ring-sky-400 mt-4 px-24 max-sm:pl-20 max-sm:pr-2 w-2/3 max-sm:w-4/5 bg-white rounded-lg">
+              <img src='/images/review-1.png' className="w-36 h-36 z-20 absolute top-[60px] max-sm:top-1/4 -left-[72px] " />
               <div className="flex items-center mb-2 text-yellow-400 justify-end">
                 {[...Array(4)].map((_, index) => (
                   <svg
@@ -34,7 +34,7 @@ export default function Testimonial() {
 
               </div>
 
-              <p className="text-lg italic max-sm:text-xs  text-gray-900">"I am proud to say that after a few months of taking this course... I passed my exam and am now an AWS Certified Cloud Practitioner!"</p>
+              <p className="text-lg italic max-sm:text-xs max-sm:pr-4 text-gray-900">"I am proud to say that after a few months of taking this course... I passed my exam and am now an AWS Certified Cloud Practitioner!"</p>
               <p className="mt-2 text-[20px] max-sm:text-xs max-sm:font-semibold font-bold text-gray-900">- Nia Kyle</p>
               <div className="min-[640px]:hidden mt-2">
               <Link href={'/'} className="min-[640px]:hidden text-sky-400">
