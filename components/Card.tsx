@@ -20,7 +20,7 @@ const Card = ({ title, gender, category, description, imageUrl, time }: CardProp
   }
 
   return (
-    <div className="flex-col max-w-sm rounded-2xl overflow-hidden hover:shadow-2xl shadow-lg bg-sky-400 w-full ">
+    <div className="flex-col max-sm:w-10/12 mx-4 rounded-2xl overflow-hidden hover:shadow-2xl shadow-lg bg-sky-400 w-full ">
     <div className=" rounded-b-2xl bg-white px-2">
       <div className="flex px-4 py-4">
       <img

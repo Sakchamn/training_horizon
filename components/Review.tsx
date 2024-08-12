@@ -15,7 +15,7 @@ const Review: NextPage = () => {
             <div className="flex-col px-4">
               <h1 className="text-2xl font-bold text-gray-900 pt-5">Summer bummer vacations</h1>
               <p className="text-gray-600 pt-2">Some recent classes and webinar near your location.</p>
-              <button className="mt-6 py-2 px-4  bg-sky-400 text-white rounded hover:bg-sky-600">Mathematics with best Teachers</button>
+              <button className="mt-6 py-2 px-4 max-sm:text-[11px] bg-sky-400 text-white rounded hover:bg-sky-600">Mathematics with best Teachers</button>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8">
@@ -29,7 +29,7 @@ const Review: NextPage = () => {
                   <h2 className="text-xl pt-4 font-bold text-gray-900">Mathematics</h2>
                   <p className="mt-2 text-gray-600">Get course completion certificate and prizes for
                     7 grade students participate now.</p>
-                  <button className="mt-4 px-4 py-2 bg-sky-400 text-white rounded  hover:bg-sky-600">Learn Mathematics with best Teachers</button>
+                  <button className="mt-4 px-4 py-2 max-sm:text-[11px] bg-sky-400 text-white rounded  hover:bg-sky-600">Learn Mathematics with best Teachers</button>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@ const Review: NextPage = () => {
                   <h2 className="text-xl pt-4 font-bold text-gray-900">Science</h2>
                   <p className="mt-2 text-gray-600">Get course completion certificate and prizes for
                     7 grade students participate now.</p>
-                  <button className="mt-4 px-4 py-2 bg-sky-400 text-white rounded  hover:bg-sky-600 " >Learn Science with best Teachers</button>
+                  <button className="mt-4 px-4 py-2 max-sm:text-[11px] bg-sky-400 text-white rounded  hover:bg-sky-600 " >Learn Science with best Teachers</button>
                 </div>
               </div>
             </div>

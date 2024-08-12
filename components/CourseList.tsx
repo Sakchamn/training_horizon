@@ -20,14 +20,14 @@ const Home = () => {
       const educationalCourse = courses.filter(course => course.category == 'Educational')
       return (
         <>
-        <div className="w-full flex container mx-auto py-6">
-          <h2 className="text-2xl font-bold mb-4 ">Our Best Courses</h2>
-          <div className="gap-4 w-auto flex-grow flex justify-end ">
+        <div className="w-full flex max-sm:flex-col container mx-auto py-6">
+          <h2 className="text-2xl max-sm:text-base font-bold mb-4 max-sm:px-2 ">Our Best Courses</h2>
+          <div className="gap-4 w-auto flex-grow flex justify-end max-sm:justify-start max-sm:px-2">
             <Dropdown label="Select Category" options={['Sports', 'Arts', 'Music']} />
             <Dropdown label="Gender" options={['Boys','Boys and Girls']} />
           </div>
           </div>
-          <div className="flex container mx-auto">
+          <div className="flex max-sm:px-2 container mx-auto">
               <h1 className=" text-base font-bold">Sports</h1>
               <Link href={'/'}
               className="flexEnd w-full text-sky-400"
@@ -41,7 +41,7 @@ const Home = () => {
               <Card key={index} {...course} />
             ))}
           </div>
-          <div className="flex container mx-auto">
+          <div className="flex max-sm:px-2 container mx-auto">
               <h1 className=" text-base font-bold">Educational</h1>
               <Link href={'/'}
               className="flexEnd w-full text-sky-400"
@@ -55,7 +55,7 @@ const Home = () => {
               <Card key={index} {...course} />
             ))}
           </div>
-          <div className="flex container mx-auto">
+          <div className="flex max-sm:px-2 container mx-auto">
               <h1 className=" text-base font-bold">Educational</h1>
               <Link href={'/'}
               className="flexEnd w-full text-sky-400"
