@@ -4,9 +4,9 @@ import Button from '@/components/Button';
 
 const Header = () => {
   return (
-    <header className="bg-[#56C1FF] bg-cover bg-bottom bg-no-repeat text-white py-48 text-center p-10"
+    <header className="bg-[#56C1FF] bg-cover  bg-bottom bg-no-repeat text-white py-48 text-center p-10"
     style={{ backgroundImage: "url('/images/HeroBg.png')" }}>
-    <div className="w-screen flex justify-center items-center">
+    <div className="w-full flex justify-center items-center">
       <div className="w-1/2">
       <header className=" py-20 text-center">
         <h1 className="text-4xl  bold-64 text-shadow-sm mb-4 text-white">Get your skills upgraded with us</h1>
