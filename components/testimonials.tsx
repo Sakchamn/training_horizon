@@ -34,7 +34,7 @@ export default function Testimonial() {
             
               <p className="text-lg italic text-gray-900">"I am proud to say that after a few months of taking this course... I passed my exam and am now an AWS Certified Cloud Practitioner!"</p> 
               <p className="mt-2 text-[20px] font-bold text-gray-900">- Nia Kyle</p> 
-              <div className="bg-sky-400 flex justify-center items-center ring-1 ring-sky-400 w-[80px] h-full absolute top-0 right-0  rounded-r-lg hover:bg-sky-600">
+              <div className="bg-sky-400 flex justify-center items-center ring-1 ring-sky-400 w-1/12 h-full absolute top-0 right-0  rounded-r-lg hover:bg-sky-600">
               <div className="size-8 my-32 mx-6">  <img src="/icons/arrow_next.png" alt="nextbtn" /></div>
             </div>  
             </div> 
